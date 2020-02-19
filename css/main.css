@@ -6,6 +6,7 @@ body {
 
 /* Sidebar Menu*/
 .sidenav{
+	margin-left: 5px;
 	height: 100%; /* Full-height: remove this if you want "auto" height */
   	width: 160px; 
   	position: fixed; /* Fixed Sidebar  */
