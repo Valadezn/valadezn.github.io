@@ -23,6 +23,14 @@ body {
     padding: 10px;
 }
 
+.sidenav img {
+	margin-left: auto;
+	margin-right: auto;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .resume-button {
 	background-color: #518abc;
 	width: 210px;
