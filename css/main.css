@@ -1,7 +1,8 @@
 body {
-	background-color: #EBE7E0;
+	background-color: white;
     margin: 60px auto;
     width: 70%;
+    color: black;
 }
 
 /* Sidebar Menu*/
@@ -13,7 +14,7 @@ body {
   	z-index: 1; /* Stay on top */
   	top: 0; /* Stay at the top */
   	left: 0;
-  	background-color: #BDB6AB; 
+  	background-color: #083045; 
   	overflow-x: hidden; /* Disable horizontal scroll */
 }
 
@@ -21,6 +22,7 @@ body {
     font-size: 18px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 10px;
+    color: #f5d76e;
 }
 
 .sidenav img {
@@ -32,7 +34,7 @@ body {
 }
 
 .resume-button {
-	background-color: #518abc;
+	background-color: #3e92cc;
 	width: 210px;
 	border: none;
 	color: white;
@@ -42,7 +44,7 @@ body {
 }
 
 .resume-button:hover {
-	background-color: #44749D;
+	background-color: #0a2463;
 }
 
 .container {
@@ -72,13 +74,14 @@ h1 {
 }
 
 .blurb h2{
-    background-color: #BDB8AD;
+    background-color: #eed369;
+    color: black;
 }
 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: black;
 }
 footer {
     border-top: 1px solid #d5d5d5;
