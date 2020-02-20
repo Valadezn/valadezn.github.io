@@ -25,10 +25,10 @@ body {
 }
 
 .resume-button {
-	background-color: #C6D4E1;
+	background-color: #518abc;
 	border: none;
 	color: white;
-	padding: 12px 30px;
+	padding: 12px 15px;
 	cursor: pointer;
 	font-size: 20px;
 }
