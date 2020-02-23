@@ -3,6 +3,7 @@ body {
     margin: 60px auto;
     width: 70%;
     color: black;
+font-family: 'Georgia', serif;
 }
 
 /* Sidebar Menu*/
@@ -52,7 +53,7 @@ body {
   	padding: 0px 10px;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -70,7 +71,6 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 .blurb h2{
@@ -78,16 +78,18 @@ h1 {
     color: black;
 }
 
-p {
+.blurb p {
     font-size: 1.5em;
     line-height: 1.4em;
+	font-weightL 300;
     color: black;
+	font-family: 'Segoe UI', 'Candara', 'Helvetica', sans-serif;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     margin-left: 210px;
-    position: fixed;
+    position: static;
     bottom: 0%;
 }
 nav li a {
