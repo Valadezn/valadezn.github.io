@@ -48,6 +48,13 @@ font-family: 'Georgia', serif;
 	background-color: #0a2463;
 }
 
+#sidenav_links {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
 .container {
 	margin-left: 210px; /* Same as the width of the sidebar */
   	padding: 0px 10px;
