@@ -1,104 +1,137 @@
 body {
-	background-color: white;
+    background-color: white;
     margin: 60px auto;
     width: 70%;
     color: black;
-font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif;
 }
 
 /* Sidebar Menu*/
-.sidenav{
-	padding: 20px;
-	height: 100%; /* Full-height: remove this if you want "auto" height */
-  	width: 210px; 
-  	position: fixed; /* Fixed Sidebar  */
-  	z-index: 1; /* Stay on top */
-  	top: 0; /* Stay at the top */
-  	left: 0;
-  	background-color: #083045; 
-  	overflow-x: hidden; /* Disable horizontal scroll */
+.sidenav {
+    padding: 20px;
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 210px;
+    position: fixed;
+    /* Fixed Sidebar  */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #083045;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
 }
 
 .sidenav p {
     font-size: 18px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 10px;
     color: #f5d76e;
 }
 
 .sidenav img {
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .resume-button {
-	background-color: #3e92cc;
-	width: 210px;
-	border: none;
-	color: white;
-	padding: 10px;
-	cursor: pointer;
-	font-size: 18px;
+    background-color: #3e92cc;
+    width: 210px;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .resume-button:hover {
-	background-color: #0a2463;
+    background-color: #0a2463;
 }
 
 #sidenav_links {
+    margin: auto;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-content: center;
 }
 
+.sidenav p {
+    margin: 0px;
+    padding: 10px;
+}
+
+/* End Sidebar Menu*/
+
 .container {
-	margin-left: 210px; /* Same as the width of the sidebar */
-  	padding: 0px 10px;
+    margin-left: 210px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
 }
-nav ul, footer ul {
-    
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
+/* Top Title Header (H1)*/
 h1 {
     font-size: 3em;
 }
 
-.blurb h2{
+/* End Top Title Header (H1)*/
+
+.blurb h2 {
     background-color: #eed369;
     color: black;
 }
 
 .blurb {
-font-family: 'Segoe UI', 'Candara', 'Helvetica', sans-serif;
+    font-family: 'Segoe UI', 'Candara', 'Helvetica', sans-serif;
 }
+
+/* Bio Blurb */
+
+#bio-blurb p {
+    font-weight: 350;
+}
+
+/* End Bio Blurb */
 
 .blurb p {
     font-size: 1.5em;
     line-height: 1.4em;
-	font-weight: 300;
+    font-weight: 300;
     color: black;
-	
 }
-.blurb ul{
-	font-weight: 300;
+
+.blurb ul {
+    font-weight: 300;
+    font-size: 20px;
 }
+
+nav ul,
+footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li,
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -106,15 +139,17 @@ footer {
     position: static;
     bottom: 0%;
 }
+
 nav li a {
-	display: block;
-	width: 60px;
-}
- ul.posts {  
-     margin: 20px auto 40px;  
-     font-size: 1.5em; 
+    display: block;
+    width: 60px;
 }
 
- ul.posts li { 
-     list-style: none; 
- } 
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
