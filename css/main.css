@@ -54,7 +54,8 @@ body {
 }
 
 #sidenav_links {
-    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -63,7 +64,9 @@ body {
 
 .sidenav p {
     margin: 0px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
 }
 
 /* End Sidebar Menu*/
@@ -85,14 +88,24 @@ a:hover {
 
 /* Top Title Header (H1)*/
 h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 /* End Top Title Header (H1)*/
 
 .blurb h2 {
     background-color: #eed369;
-    color: black;
+    color: #083045;
+    font-size: 2.5em;
+/*    color: black;*/
+}
+.blurb h3
+{
+    font-style: italic;
+    color: #3b3c40;
+    font-size: 1.7em;
+/*    line-height: 0.5em;*/
+    margin-bottom: 3px;
 }
 
 .blurb {
@@ -103,13 +116,15 @@ h1 {
 
 #bio-blurb p {
     font-weight: 350;
+    font-size: 1.5em;
+    line-height: 1.4em;
 }
 
 /* End Bio Blurb */
 
 .blurb p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.4em;
+    line-height: 1em;
     font-weight: 300;
     color: black;
 }
