@@ -143,6 +143,16 @@ h1 {
     grid-gap: 10px;
 }
 
+.relevant-classes-details p {
+/*    color: white;*/
+    background-color: rgb(0,0,0,0.05);
+/*    opacity: 0.2;*/
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*
 .meter {
     height: 10px;
     position: relative;
@@ -171,6 +181,9 @@ h1 {
     position: relative;
     overflow: hidden;
 }
+*/
+
+
 
 nav ul,
 footer ul {
