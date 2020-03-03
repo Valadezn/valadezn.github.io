@@ -55,23 +55,23 @@ body {
 }
 
 .resume-button:hover {
-    background-color: #0a2463;
+    background-color: #3a86ba;
 }
 
-/*
 #sidenav_links {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
 }
-*/
 
 #sidenav_links p{
     padding: 0px 10px 2px;
 /*    padding*/
+}
+
+#sidenav_links a {
+    color: #eed369
 }
 
 /* End Sidebar Menu*/
@@ -81,6 +81,7 @@ body {
     /* Same as the width of the sidebar */
     margin-right: 300px;
     padding: 0px 10px;
+    
 }
 
 footer a {
@@ -92,12 +93,15 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Top Title Header (H1)*/
+.blurb {
+    font-family: 'Segoe UI', 'Candara', 'Helvetica', sans-serif;
+    font-weight: 300;
+/*    font-size: 1.4em;*/
+}
+
 h1 {
     font-size: 4em;
 }
-
-/* End Top Title Header (H1)*/
 
 .blurb h2 {
     background-color: #eed369;
@@ -114,10 +118,10 @@ h1 {
     margin-bottom: 3px;
 }
 
-.blurb {
-    font-family: 'Segoe UI', 'Candara', 'Helvetica', sans-serif;
+.blurb h4 
+{
+    font-size: 1.2em;
 }
-
 
 /* Bio Blurb */
 
@@ -130,6 +134,7 @@ h1 {
 /* End Bio Blurb */
 
 .blurb p {
+    
     font-size: 1.4em;
     line-height: 1em;
     font-weight: 300;
@@ -138,26 +143,22 @@ h1 {
 
 .blurb ul {
     font-weight: 300;
-    font-size: 15px;
 }
-
 
 .relevant-classes-details {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
+    font-weight: 300;
 }
 
 .relevant-classes-details p {
-/*    color: white;*/
-    background-color: rgb(0,0,0,0.05);
-/*    opacity: 0.2;*/
-    font-size: 17px;
-    padding: 5px;
-    border-radius: 10px;
+    font-size: 18px;
+    padding: 0px;
+    font-family: 'Segoe UI', 'Candara', 'Helvetica', sans-serif;
 }
 
-#technologies-list ul{
+.details-list ul{
     display: flex;
     flex-wrap: wrap;
     list-style:  none;
@@ -165,12 +166,13 @@ h1 {
     padding-inline-start: 0px;
     
 }
-#technologies-list li {
+.details-list li {
     border: 1px solid grey;
     padding: 2px;
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 10px;
+    margin-bottom: 5px;    
 /*    border-width: 1px;*/
 }
 
