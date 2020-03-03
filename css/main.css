@@ -152,6 +152,22 @@ h1 {
     border-radius: 10px;
 }
 
+#technologies-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style:  none;
+    justify-content: space-around;
+    
+}
+#technologies-list li {
+    border: 1px solid grey;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+/*    border-width: 1px;*/
+}
+
 /*
 .meter {
     height: 10px;
@@ -182,8 +198,6 @@ h1 {
     overflow: hidden;
 }
 */
-
-
 
 nav ul,
 footer ul {
